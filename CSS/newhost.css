@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 110%;
+}
+
+#cont {
+  display: flex;
+}
+
+.box3 {
+  height: 100%;
+  width: 20%;
+  background-color: pink;
+  float: left;
+}
+
+.box4 {
+  height: 100%;
+  width: 60%;
+  background-color: aqua;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.box5 {
+  height: 100%;
+  width: 20%;
+  background-color: pink;
+  float: right;
+}
+
+.homebtn {
+  height: 5%;
+  width: 15%;
+}
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: bisque;
+}
+
+.three {
+  background-color: blue;
+}
+
+.four {
+  background-color: blueviolet;
+}
+
+.five {
+  background-color: chartreuse;
+}
+
+.tag1 {
+  color: blue;
+  font-size: large;
+}
