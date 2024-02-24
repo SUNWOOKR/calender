@@ -16,6 +16,8 @@ html {
   width: 45%;
   background-color: pink;
   float: left;
+  display: flex;
+  align-items: center;
 }
 
 .title {
@@ -128,4 +130,117 @@ input::placeholder {
   width: 50%;
   height: 100%;
   float: right;
+}
+
+.webapp {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+p::after {
+  content: "\f368"; /*유니코드 붙여넣기*/
+  font-family: "Font Awesome 5 Brands"; /*폰트 어썸 fab 글꼴 연결*/
+}
+
+.github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#git {
+  height: 95%;
+  width: 90%;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  border-radius: 30px;
+}
+
+#goog {
+  height: 95%;
+  width: 90%;
+  color: blue;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  border-radius: 30px;
+}
+
+.gittext {
+  height: auto;
+  width: auto;
+  font-family: "Do Hyeon", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 600%;
+}
+
+.googtext {
+  height: auto;
+  width: auto;
+  font-family: "Do Hyeon", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 600%;
+}
+
+.g1 {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.goo1 {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.g2 {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.goo2 {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+#git:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+
+#goog:hover {
+  cursor: pointer;
+  background-color: orange;
+}
+
+.giticon {
+  height: auto;
+  width: auto;
+}
+
+.googleicon {
+  height: auto;
+  width: auto;
 }

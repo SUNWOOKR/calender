@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   width: 100%;
-  height: 110%;
+  height: 100%;
 }
 
 #cont {
@@ -20,7 +20,7 @@
 .box4 {
   height: 100%;
   width: 60%;
-  background-color: aqua;
+  background-color: bisque;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -38,27 +38,124 @@
   width: 15%;
 }
 
-.one {
-  background-color: red;
-}
-
 .two {
-  background-color: bisque;
+  display: flex;
+  flex-direction: column;
 }
 
 .three {
-  background-color: blue;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
 }
 
 .four {
-  background-color: blueviolet;
+  background-color: whitesmoke;
 }
 
 .five {
   background-color: chartreuse;
 }
 
+.leng {
+  height: 100%;
+  width: 100%;
+}
+
+.six {
+  background-color: whitesmoke;
+}
+
 .tag1 {
+  height: 50%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: end;
+}
+
+.tt {
+  height: auto;
+  width: auto;
   color: blue;
-  font-size: large;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 350%;
+}
+
+.ii {
+  height: auto;
+  width: auto;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 150%;
+}
+
+.tag2 {
+  height: 50%;
+  color: blue;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.idtext {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.passtext {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itd {
+  height: auto;
+  width: auto;
+  font-size: 200%;
+  color: blue;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.loginbox {
+  height: 60%;
+  width: auto;
+}
+
+#newlogbox {
+  border-width: 0 0 2px;
+  color: black;
+  background-color: whitesmoke;
+  font-size: xx-large;
+}
+
+.ptd {
+  height: auto;
+  width: auto;
+  font-size: 200%;
+  color: blue;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.passbox {
+  height: 60%;
+  width: auto;
+}
+
+#newpassbox {
+  border-width: 0 0 2px;
+  color: black;
+  background-color: whitesmoke;
+  font-size: xx-large;
 }
